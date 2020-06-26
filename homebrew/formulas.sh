@@ -26,6 +26,8 @@ brew cask install rectangle
 brew cask install microsoft-remote-desktop-beta
 brew cask install keystore-explorer
 brew cask install lens
+brew cask install ngrok
+brew cask install google-chat
 
 brew install git
 brew install git-crypt
@@ -61,3 +63,4 @@ brew install bash
 brew install skaffold
 brew install postgresql
 brew install kotlin
+brew install tokei
