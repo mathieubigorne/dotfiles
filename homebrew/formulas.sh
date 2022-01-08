@@ -8,26 +8,26 @@ brew tap homebrew/cask
 brew tap homebrew/cask-versions
 brew tap AdoptOpenJDK/openjdk
 
-brew cask install adoptopenjdk11
-brew cask install google-cloud-sdk
-brew cask install dropbox
-brew cask install firefox
-brew cask install google-chrome
-brew cask install slack
-brew cask install sublime-text
-brew cask install alfred
-brew cask install carbon-copy-cloner
-brew cask install docker
-brew cask install evernote
-brew cask install intellij-idea
-brew cask install iterm2
-brew cask install keka
-brew cask install rectangle
-brew cask install microsoft-remote-desktop-beta
-brew cask install keystore-explorer
-brew cask install lens
-brew cask install ngrok
-brew cask install google-chat
+brew install adoptopenjdk11
+brew install google-cloud-sdk
+brew install dropbox
+brew install firefox
+brew install google-chrome
+brew install slack
+brew install sublime-text
+brew install alfred
+brew install carbon-copy-cloner
+brew install docker
+brew install evernote
+brew install intellij-idea
+brew install iterm2
+brew install keka
+brew install rectangle
+brew install microsoft-remote-desktop-beta
+brew install keystore-explorer
+brew install lens
+brew install ngrok
+brew install google-chat
 
 brew install git
 brew install git-crypt
@@ -64,3 +64,4 @@ brew install skaffold
 brew install postgresql
 brew install kotlin
 brew install tokei
+brew install exa
