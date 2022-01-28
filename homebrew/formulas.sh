@@ -34,7 +34,6 @@ brew install git-crypt
 brew install maven
 brew install the_silver_searcher
 brew install wget
-brew install nvm
 brew install ansible
 brew install bash-completion
 brew install jq
@@ -65,3 +64,4 @@ brew install postgresql
 brew install kotlin
 brew install tokei
 brew install exa
+brew install volta

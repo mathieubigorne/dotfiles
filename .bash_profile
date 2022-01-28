@@ -32,7 +32,8 @@ source /usr/local/opt/git/etc/bash_completion.d/git-completion.bash
 source /usr/local/opt/git/etc/bash_completion.d/git-prompt.sh
 
 # Node version manager
-source /usr/local/opt/nvm/nvm.sh
+export VOLTA_HOME=$HOME/.volta
+export PATH="$VOLTA_HOME/bin:$PATH"
 
 # GCloud utility
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
