@@ -40,7 +40,7 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.i
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 
 # default java version
-setjdk 11
+setjdk 17
 
 # servio
 export SERVIO_LOCATION='/Users/mbigorne/projects/servio'

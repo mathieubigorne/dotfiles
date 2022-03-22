@@ -8,7 +8,7 @@ brew tap homebrew/cask
 brew tap homebrew/cask-versions
 brew tap AdoptOpenJDK/openjdk
 
-brew install adoptopenjdk11
+brew install temurin
 brew install google-cloud-sdk
 brew install dropbox
 brew install firefox
