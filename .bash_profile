@@ -44,7 +44,10 @@ setjdk 17
 
 # servio
 export SERVIO_LOCATION='/Users/mbigorne/projects/servio'
+export SERVIO_ANNOUNCEMENTS_LOCATION='/Users/mbigorne/projects/servio-announcements'
 export USERNAME='mbigorne'
 export COMMANDEXECUTOR_ENABLED=false # Disable JobEx jobs
 
 source ${SERVIO_LOCATION}/tools/dotfiles/.servio.sh
+
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True # voir https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
