@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+export PATH="/opt/homebrew/bin:$HOME/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -19,7 +19,7 @@ shopt -s histappend;
 shopt -s cdspell;
 
 # Add tab completion for many Bash commands
-[ -f $(brew --prefix)/etc/bash_completion ] && source $(brew --prefix)/etc/bash_completion
+[[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] && . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
 
 # fzf : command line fuzzy finder
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
@@ -28,12 +28,12 @@ shopt -s cdspell;
 [ -f "${HOME}/.iterm2_shell_integration.bash" ] && source "${HOME}/.iterm2_shell_integration.bash"
 
 # Git
-source /usr/local/opt/git/etc/bash_completion.d/git-completion.bash
-source /usr/local/opt/git/etc/bash_completion.d/git-prompt.sh
+source "$(brew --prefix)/opt/git/etc/bash_completion.d/git-completion.bash"
+source "$(brew --prefix)/opt/git/etc/bash_completion.d/git-prompt.sh"
 
 # GCloud utility
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc"
 
 # default java version
 setjdk 20

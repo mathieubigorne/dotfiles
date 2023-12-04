@@ -30,7 +30,7 @@ brew install maven
 brew install the_silver_searcher
 brew install wget
 brew install ansible
-brew install bash-completion
+brew install bash-completion@2
 brew install jq
 brew install kubernetes-cli
 brew install httpie
