@@ -4,6 +4,7 @@ brew update
 brew doctor
 brew upgrade
 
+brew tap homebrew/cask-versions
 brew tap hashicorp/tap
 
 brew install temurin
