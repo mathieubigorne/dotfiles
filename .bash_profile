@@ -31,16 +31,16 @@ shopt -s cdspell;
 source /usr/local/opt/git/etc/bash_completion.d/git-completion.bash
 source /usr/local/opt/git/etc/bash_completion.d/git-prompt.sh
 
-# Node version manager
-export VOLTA_HOME=$HOME/.volta
-export PATH="$VOLTA_HOME/bin:$PATH"
-
 # GCloud utility
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 
 # default java version
-setjdk 17
+setjdk 20
+
+# Default is zsh. I use bash
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 
 # servio
 export SERVIO_LOCATION='/Users/mbigorne/projects/servio'

@@ -22,6 +22,8 @@ alias brew-update='brew update && brew upgrade && brew cleanup && brew doctor &&
 alias logs-service-candidat='stern service-candidat --timestamps --tail 1000'
 alias logs-ingress='stern nginx-ingress --timestamps --tail 1000'
 alias logs-all='stern ".*" --timestamps --tail 1000'
+alias servio-kubernetes='cd $SERVIO_LOCATION/kubernetes'
+alias servio-terraform='cd $SERVIO_LOCATION/tools/terraform'
 
 # Kubernetes
 alias k='kubectl'

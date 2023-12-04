@@ -2,6 +2,19 @@
 
 	email = mathieu.bigorne@gmail.com
 	name = Mathieu Bigorne
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMLZ62lMAbnOqW06m5gFUluv7j8w/Py4+T3/W+lGyvCy
+
+[gpg]
+
+    format = ssh
+
+[gpg "ssh"]
+
+    program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+
+    gpgsign = true
 
 [color]
 
@@ -84,3 +97,7 @@
 [fetch]
 
 	prune = true
+
+[rebase]
+
+	updateRefs = true

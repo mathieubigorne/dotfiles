@@ -10,7 +10,7 @@ sudo softwareupdate -i -a
 
 # Install Homebrew
 ```shell
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 # Setup & run dotfiles
@@ -25,12 +25,6 @@ cd dotfiles
 ./homebrew/formulas.sh
 
 cp .aliases .bash_profile .bash_prompt .exports .functions .gitconfig ~ && source ~/.bash_profile
-```
-
-# Upgrade to bash 5
-Append `/usr/local/bin/bash` to file `/etc/shells`
-```shell
-chsh -s /usr/local/bin/bash
 ```
 
 # Setup fzf
@@ -49,7 +43,7 @@ rbenv init
 rbenv install 2.6.1
 ```
 
-# Node
+# PNPM
 ```shell
-nvm install node
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```

@@ -4,11 +4,10 @@ brew update
 brew doctor
 brew upgrade
 
-brew tap homebrew/cask
-brew tap homebrew/cask-versions
-brew tap AdoptOpenJDK/openjdk
+brew tap hashicorp/tap
 
 brew install temurin
+brew install temurin20
 brew install google-cloud-sdk
 brew install dropbox
 brew install firefox
@@ -17,17 +16,13 @@ brew install slack
 brew install sublime-text
 brew install alfred
 brew install carbon-copy-cloner
-brew install docker
-brew install evernote
-brew install intellij-idea
 brew install iterm2
 brew install keka
 brew install rectangle
 brew install microsoft-remote-desktop-beta
 brew install keystore-explorer
-brew install lens
 brew install ngrok
-brew install google-chat
+brew install vlc
 
 brew install git
 brew install git-crypt
@@ -54,14 +49,9 @@ brew install stern
 brew install rbenv
 brew install helm
 brew install terraform
-brew install terraformer
 brew install autossh
 brew install derailed/k9s/k9s
 brew install redis
 brew install bash
-brew install skaffold
 brew install postgresql
-brew install kotlin
-brew install tokei
-brew install exa
-brew install volta
+brew install hashicorp/tap/terraform
