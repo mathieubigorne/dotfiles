@@ -24,7 +24,6 @@ shopt -s cdspell;
 # fzf : command line fuzzy finder
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-
 [ -f "${HOME}/.iterm2_shell_integration.bash" ] && source "${HOME}/.iterm2_shell_integration.bash"
 
 # Git
@@ -41,12 +40,10 @@ setjdk 20
 # Default is zsh. I use bash
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-
 # servio
 export SERVIO_LOCATION='/Users/mbigorne/projects/servio'
 export SERVIO_ANNOUNCEMENTS_LOCATION='/Users/mbigorne/projects/servio-announcements'
 export USERNAME='mbigorne'
-export COMMANDEXECUTOR_ENABLED=false # Disable JobEx jobs
 
 source ${SERVIO_LOCATION}/tools/dotfiles/.servio.sh
 
