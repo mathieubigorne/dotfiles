@@ -24,7 +24,7 @@ cd dotfiles
 ./osx/set-defaults.sh
 ./homebrew/formulas.sh
 
-cp .aliases .bash_profile .bash_prompt .exports .functions .gitconfig ~ && source ~/.bash_profile
+cp zsh/.zshrc zsh/.aliases zsh/.functions zsh/.work zsh/.p10k.zsh .gitconfig ~ && source ~/.zshrc
 ```
 
 # Setup fzf
@@ -40,10 +40,5 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/sub
 # Ruby
 ```shell
 rbenv init
-rbenv install 2.6.1
-```
-
-# PNPM
-```shell
-curl -fsSL https://get.pnpm.io/install.sh | sh -
+rbenv install VERSION
 ```

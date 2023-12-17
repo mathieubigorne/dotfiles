@@ -24,14 +24,13 @@ brew install microsoft-remote-desktop-beta
 brew install keystore-explorer
 brew install ngrok
 brew install vlc
-
 brew install git
 brew install git-crypt
 brew install maven
 brew install the_silver_searcher
 brew install wget
 brew install ansible
-brew install bash-completion@2
+brew install zsh-completions
 brew install jq
 brew install kubernetes-cli
 brew install httpie
@@ -56,3 +55,4 @@ brew install redis
 brew install bash
 brew install postgresql
 brew install hashicorp/tap/terraform
+brew install powerlevel10k
