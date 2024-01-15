@@ -32,6 +32,7 @@ brew install wget
 brew install ansible
 brew install zsh-completions
 brew install jq
+brew install yq
 brew install kubernetes-cli
 brew install httpie
 brew install watch
