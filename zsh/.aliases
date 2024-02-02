@@ -4,7 +4,7 @@ alias ls="eza -l"
 alias cat='bat'
 alias grep='grep --color=auto'
 
-alias agg="ag -C 2 --ignore-dir={.git,log,node_modules,vendor,tmp,angular,*.js} $1"
+alias agg="ag -C 2 --ignore-dir='{.git,log,node_modules,vendor,tmp,angular,*.js}' $1"
 alias preview="fzf --preview 'bat --color \"always\" {}'"
 
 alias dl='cd ~/Downloads'

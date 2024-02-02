@@ -41,6 +41,7 @@ brew install fzf
 brew install terminal-notifier
 brew install pv
 brew install bat
+brew install eza
 brew install diff-so-fancy
 brew install tldr
 brew install fd
