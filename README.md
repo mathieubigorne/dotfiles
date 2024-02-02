@@ -42,3 +42,9 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/sub
 rbenv init
 rbenv install VERSION
 ```
+
+# iterm2
+
+```shell
+curl -L https://iterm2.com/shell_integration/zsh -o ~/.iterm2_shell_integration.zsh
+```
