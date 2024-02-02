@@ -48,3 +48,9 @@ rbenv install VERSION
 ```shell
 curl -L https://iterm2.com/shell_integration/zsh -o ~/.iterm2_shell_integration.zsh
 ```
+
+## Installer la font MeslogLGS dans iterm2
+
+```
+https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf
+```
