@@ -58,3 +58,5 @@ brew install bash
 brew install postgresql
 brew install hashicorp/tap/terraform
 brew install powerlevel10k
+brew install miniconda
+brew install kubecolor

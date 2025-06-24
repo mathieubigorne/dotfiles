@@ -51,6 +51,7 @@ source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/compl
 
 # Kubetcl
 source <(kubectl completion zsh)
+compdef kubecolor=kubectl
 
 # default java version
 setjdk 20
