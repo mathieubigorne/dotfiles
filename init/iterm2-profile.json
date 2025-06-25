@@ -193,11 +193,11 @@
     "Green Component" : 0.81960785388946533
   },
   "Ansi 8 Color" : {
-    "Red Component" : 0.20000000298023224,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.20000000298023224,
+    "Red Component" : 0.645263671875,
+    "Color Space" : "P3",
+    "Blue Component" : 0.645263671875,
     "Alpha Component" : 1,
-    "Green Component" : 0.20000000298023224
+    "Green Component" : 0.645263671875
   },
   "Badge Color" : {
     "Red Component" : 1,

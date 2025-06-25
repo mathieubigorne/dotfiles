@@ -20,7 +20,7 @@ brew install carbon-copy-cloner
 brew install iterm2
 brew install keka
 brew install rectangle
-brew install microsoft-remote-desktop-beta
+brew install windows-app
 brew install keystore-explorer
 brew install ngrok
 brew install vlc
@@ -50,7 +50,6 @@ brew install telnet
 brew install stern
 brew install rbenv
 brew install helm
-brew install terraform
 brew install autossh
 brew install derailed/k9s/k9s
 brew install redis
@@ -60,3 +59,5 @@ brew install hashicorp/tap/terraform
 brew install powerlevel10k
 brew install miniconda
 brew install kubecolor
+brew install 1password
+brew install freelens

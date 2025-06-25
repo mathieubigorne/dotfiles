@@ -54,4 +54,4 @@ source <(kubectl completion zsh)
 compdef kubecolor=kubectl
 
 # default java version
-setjdk 20
+setjdk 21
